@@ -1,0 +1,52 @@
+body{margin: 0; padding: 0; background: url(images/音乐网背景.webp) no-repeat; background-size: cover;}
+        table{width: 1000px; height: 360px; margin: 100px auto; background: url(images/音乐定位背景.jpg) no-repeat; background-size: cover; border-radius: 100px/50px;}
+        th{width: 5500px; height: 75px;}
+        td{width: 5500px; height: 31px; padding: 25px 25px 25px 188px; letter-spacing: 20px; font-style: italic;}
+         .out1{
+            width: 600px;
+            height: 440px;
+            margin: 25px 71px 100px 30px;
+            position: relative;
+            float: left;
+        }
+        .jianju{margin-left: 200px;}/*使每两个人物介绍距离合理*/
+        .div1{
+            width: 150px;
+            height: 200px;
+            position: absolute;
+            left: 14px;
+            top: 170px;
+        }
+        .div2{
+            width: 375px;
+            height: 300px;
+            position: absolute;
+            right: 10px;
+            top: 137px;
+        }
+        .div1 img{display: inline-block; width: 150px; height: 150px; border-radius: 50%; animation: yongdong 10s linear infinite;}
+        @keyframes yongdong{
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+        h2{color: #33cccc; font-size: 50px; font-style: italic; letter-spacing: 96px; text-align: center;}
+        a {
+    text-decoration: none;
+    color: #262626;
+    outline: 0;
+}
+    a:hover{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+    h1{
+            width: 1500px;
+            height: 200px;
+            text-align: center;
+            font-size: 50px;
+            letter-spacing: 20px;
+            font-style: italic;
+            color: #77ffee;
+            text-shadow: 7px 8px 7px #ccbbff;
+        }
+        .zihao{font-size: 30px; margin-left:20px ; letter-spacing: 10px; font-style: italic;}/*请选择的格式*/

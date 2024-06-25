@@ -1,0 +1,53 @@
+body{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    background: url(images/zhuceymbj.webp) no-repeat;
+    background-size: cover;
+    color: #FFF;
+  }
+  h1{
+    text-align: center;
+    color: #9900ff;
+    opacity: 0.6;
+    text-shadow: 10px 10px 4px #9f889f;
+  }
+  .outdiv{
+    width: 530px;
+    height: 400px;
+    padding: 10px 2px 2px 2px;
+    margin: 250px auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .youduiq{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+  }
+  .zxys{
+    display: inline-block;
+    background-color: #77FF00;
+    color:gray ;
+    border-radius: 25% 40%;
+  }
+  .red{color: red;}
+  .indiv2{
+    width: 170px;
+    height: 50px;
+    float: right;
+  }
+  .indiv1{
+    width: 100px;
+    height: 50px;
+    float: right;
+    padding-right: 42px;
+  }
+  a:link{
+    color: aquamarine;
+    text-decoration: none;
+  }
+  a:hover{
+    color: aqua;
+    text-decoration: underline;
+  }

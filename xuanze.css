@@ -1,0 +1,28 @@
+body{margin: 0; padding: 0; background: url(images/选择背景图.webp) no-repeat; background-size: cover;}
+        .father{width: 1000px; height: 1000px; margin: auto; overflow: hidden;}
+        .child1{
+            background: url(images/yinyue.webp) no-repeat;
+            background-size: cover;
+        }
+        .child2{
+            background: url(images/meishi.webp) no-repeat;
+            background-size: cover;
+        }
+        .child{
+            width: 200px;
+            height: 200px;
+            float: left;
+            border-radius: 50%;
+            margin: 80px 135px 100px 138px;
+            text-align: center;
+            font-size: 40px;
+            color: coral;
+            letter-spacing: 12px;
+            line-height: 123px;
+        }
+        a {
+              text-decoration: none;
+              color: coral;
+              outline: 0;
+        }
+        h2{color: #99cccc; letter-spacing: 10px; font-style: italic; font-size: 30px; margin:198px 0px 3px 0px;}

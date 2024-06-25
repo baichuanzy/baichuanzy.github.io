@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    </script>
+    <link rel="shortcut icon" href="tubiao\zhuce.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="zhuce.css">
+</head>
+<body>
+    <div class="outdiv">
+        <h1>注册小说账号</h1>
+        <form action="#" method="post" id="zhuce_form">
+            <span class="youduiq"><span class="red">*</span>用户名：</span>
+            <input type="text" list="namelist" size="57" placeholder="必填" autocomplete="off" autofocus="true" required>
+            <datalist id="namelist">
+                <option>张三</option>
+                <option>李四</option>
+                <option>小王</option>
+            </datalist>
+            <br><br>
+            <span class="youduiq"><span class="red">*</span>密码：</span>
+            <input type="password" size="57" placeholder="请输入长度为5~16位以字母开头且只包含字母，数字，下划线的密码" pattern="^[a-zA-Z]\w{5,17}$" required><br><br>
+            <span class="youduiq">邮箱：</span>
+            <input type="email" size="57"><br><br>
+            <span class="youduiq"><span class="red">*</span>手机号码：</span>
+            <input type="tel" placeholder="必填" pattern="^\d{11}$" size="57" required><br><br>
+            
+            <button type="button" onclick="getSMSCode"() class="youduiq zxys">获取短信验证码</button>
+            <input type="text" size="57" placeholder="可以不填"><br><br>
+        </form>
+        <div class="indiv2"><a href="denglu_page.html" target="_blank">返回登录页面</a><span>&nbsp;&nbsp;</span><a href="index.html">返回</a></div>
+          <div class="indiv1">
+            <input type="reset" form="zhuce_form">
+            <input type="submit" value="注册" form="zhuce_form"/>
+          </div>
+    </div>
+</body>
+</html>

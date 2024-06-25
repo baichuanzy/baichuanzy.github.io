@@ -1,0 +1,128 @@
+body{margin: 0; padding: 0; font-size: 24px; background: url(images/背景图.png) no-repeat; background-size: cover;}
+        .mokuaijiange{margin: 5px auto;}/*每个模块的间距*/
+        #top{
+            width: 1500px;
+            height: 200px;
+            text-align: center;
+        }
+        #banner{
+            width: 1500px;
+            height: 400px;
+            position: relative;
+        }
+        #content{
+            width: 1500px;
+            height: 1000px;
+            margin: 20px auto;
+        }
+        #footer{height: 80px;}
+       h1{
+        font-size: 65px;
+        font-style: italic;
+        letter-spacing: 20px;
+        color: #ff8888;
+        text-shadow: 7px 8px 7px aquamarine;
+       }
+        /*以下三个是用来设置链接位置分配的实现*/
+        #nav{
+            width: 1500px;
+            height: 65px;
+            overflow: hidden;
+        }
+        .youfudong{float: right; font-size: 20px;}
+        .jiange{
+            display: inline-block;
+            margin-right: 50px;
+        }
+        /*以上三个是用来设置链接位置分配的实现*/
+        .left {
+	        width: 11px;
+	        height: 20px;
+	        display: block;
+	        position: absolute;
+	        top: 172px;
+	        left: 10px;
+        }/*用来设置<的位置*/
+        .right {
+	       width: 11px;
+	       height: 20px;
+	       display: block;
+	       position: absolute;
+	       top: 172px;
+	       right: 10px;
+        }/*用来设置>的位置*/
+        /*以下三个是用来实现焦点图里的诛仙小说图像的放大*/
+        .zoom{
+            border: saddlebrown solid;
+		position: relative;
+		width: 1300px;
+		height: 300px;
+        padding: 20px 67px 50px 52px;
+		overflow: hidden;
+	}
+    .zoom img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform: transform 2s ease-in-out 0.5s;
+	}
+	.zoom img:hover{
+		transform: scale(1.2);
+	}
+    /*以上三个是用来实现焦点图里的诛仙小说图像的放大*/
+        dd a:link{text-decoration: none; color: #666666;}
+        dd a:hover{text-decoration: underline;}
+        ul {list-style: none; width: 1500px; height: 260px; margin-bottom:20px ;}
+        ol{list-style: none; width: 1500px; height: 260px; margin-bottom:20px ;}
+        #content ul li{float: left; text-align: center; width: 150px; height: 220px; margin-right: 60px;}
+
+        .nomargin{margin-right: 0;}
+        #content ul li p{margin-top: -6px;}/*给今日必读里的小说名字与对应图像设置距离*/
+        #content ul li a{font-size: 15px;}/*给今日必读里的小说名字设置字体大小*/
+        .yincang{width: 150px; height: 200px; overflow: hidden;}
+        /*以下三个是用来缩放小说图像的*/
+        .suofang{
+		position: relative;
+		width: 150px;
+		height: 200px;
+		overflow: hidden;
+	}
+	.suofang img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform: transform 2s ease-in-out 0.5s;
+	}
+	.suofang img:hover{
+		transform: scale(1.2);
+	}
+    /*以上三个是用来缩放小说图像的*/
+    ol li{display: block;  width: 1400px; height: 200px; margin: 2px 5px 50px 5px;}/*给猜你喜欢的每一个li设置一个大盒子，方便图像和文字的浮动*/
+    .zuofudong{float: left; margin-left:20px ; font: lighter 20px Arial,"宋体"; color: #4c4c4c;}/*猜你喜欢ol里每一对li里的图像和简介的浮动*/
+    .zuofudong p a{display: inline-block; font-size: 36px; font-weight: bolder; margin-top: -30px; }/*猜你喜欢小说名字的大小等*/
+    .caidiv{width: 1200px; height: 200px; overflow: auto; scrollbar-width: none;}/*猜你喜欢小说简介内容超出盒子范围显示滚动条 ,scrollbar-width: none;是上网搜如何隐藏滚动条得出来的结果*/
+    /*把链接下划线取消等*/
+    a {
+    text-decoration: none;
+    color: #262626;
+    outline: 0;
+}
+    a:hover{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+    /*设置小公仔*/
+    .gongzai{
+            border-radius: 50%;
+            position: fixed;/*使小公仔固定在右下方*/
+            right: 10px;
+            bottom: 10px;
+            transition: all 2s ease 1s;
+        }
+        .gongzai:hover{
+            transform: translate(-200px,-300px) rotate(360deg);/*鼠标停放时会边平移边旋转*/
+        }

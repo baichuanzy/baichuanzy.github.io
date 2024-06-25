@@ -1,0 +1,91 @@
+body{margin: 0; padding: 0; background: url(images/美食背景.webp) no-repeat; background-size: cover;}
+        .out{
+            width: 1400px;
+            height: 450px;
+            margin: 60px 10px 160px 90px;
+            position: relative;
+        }
+        .div1{
+            width: 550px;
+            height: 350px;
+            position: absolute;
+            left: 20px;
+            top: 82px;
+        }
+        .div2{
+            width: 680px;
+            height: 400px;
+            position: absolute;
+            right: 20px;
+            top: 50px;
+            border: 8px solid #bbb;
+            border-radius: 100px/50px;
+        }/*使视频和介绍左右浮动*/
+        /*每个美食背景都不同*/
+        .div21{
+            background-image: url(images/重庆抄手.webp);
+            opacity: 0.8;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+        .div22{
+            width: 680px;
+            height: 450px;
+            background-image: url(images/北京烤鸭.jpg);
+            opacity: 0.8;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+        .div23{
+            width: 680px;
+            height: 450px;
+            background-image: url(images/兰州牛肉面.jpg);
+            opacity: 0.8;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+        .div24{
+            width: 800px;
+            height: 500px;
+            background-image: url(images/西安羊肉泡馍.jpg);
+            opacity: 0.8;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            position: absolute;
+            right: -65px;
+            top: 50px;
+        }
+        .fudong{float: left;}/*使重庆里的辅料和调料介绍占据两边*/
+        .youjianju{margin-right:190px;}
+        .youjianju2hao{margin-right:30px;}/*使最后的西安羊肉泡馍里的介绍合理*/
+        h2{color: aquamarine; font-style: italic; letter-spacing: 10px; text-align: center;}
+        h3{color: #d28eff;}
+        .suojin{text-indent: 2em;}
+        .one{list-style-image: url(images/抄手.jpg);}
+        video{width: 500px; height: 350px;}
+        .father{width: 1200; height: 50px; margin: 50px auto; overflow: hidden;}
+        .child{width: 400px; height: 50px; float: left; text-align: center;}
+        a {
+    text-decoration: none;
+    color: #262626;
+    outline: 0;
+}
+    a:hover{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+        h1{
+            width: 1500px;
+            height: 200px;
+            text-align: center;
+            font-size: 50px;
+            letter-spacing: 20px;
+            font-style: italic;
+            color: #77ffee;
+            text-shadow: 7px 8px 7px #ccbbff;
+        }
+        .zihao{font-size: 30px; margin-left:20px ;}/*请选择的格式*/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="shortcut icon" href="tubiao\denglu.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="denglu.css">
+</head>
+<body>
+    <div class="outdiv">
+        <form action="#" method="post" id="denglu_form">	
+            <p>
+              <span>手机号码：</span>
+              <input type="tel" pattern="^\d{11}$" autocomplete="off" autofocus="true" required><br>
+            </p>
+            <p>
+              <span>密码：</span>
+              <input type="password" name="pwd" size="57" placeholder="请输入长度为5~16位以字母开头且只包含字母，数字，下划线的密码" pattern="^[a-zA-Z]\w{5,17}$" required/>
+            </p>
+           
+          </form>
+          <div class="indiv2">
+            <a href="zhuce_page.html" target="_blank">注册</a>
+            <a href="index.html">返回</a>
+          </div>
+          <div class="indiv1">
+            <input type="reset" form="denglu_form">
+            <input type="submit" value="登录" form="denglu_form"/>
+          </div>
+    </div>
+</body>
+</html>
